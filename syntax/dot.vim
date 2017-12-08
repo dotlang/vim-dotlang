@@ -10,7 +10,6 @@ syntax keyword dotKeywords
       \ float
       \ bool
 
-
 " Match all dot number types
 syntax match dotNumber "\v<\d+>"
 syntax match dotNumber "\v<\d+\.\d+>"
@@ -20,7 +19,7 @@ syntax match dotNumber "\v<0b[01]+>"
 syntax match dotNumber "\v<0o\o+>"
 
 
-syntax match dotOps "\:\="
+syntax match dotOps "\:="
 syntax match dotOps "\:\:"
 syntax match dotOps "\:"
 syntax match dotBlock "{"
