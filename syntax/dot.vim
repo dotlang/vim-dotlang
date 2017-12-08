@@ -23,7 +23,7 @@ syntax match dotNumber "\v<0o\o+>"
 
 syntax match dotOps ":="
 syntax match dotOps "::"
-syntax match dotOps ":"
+syntax match dotOps "->"
 syntax match dotBlock "{"
 syntax match dotBlock "}"
 
