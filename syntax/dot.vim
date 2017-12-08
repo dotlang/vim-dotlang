@@ -20,9 +20,18 @@ syntax match dotNumber "\v<0b[01]+>"
 syntax match dotNumber "\v<0o\o+>"
 
 
+syntax match dotOps "\:\="
+syntax match dotOps "\:\:"
+syntax match dotOps "\:"
+syntax match dotBlock "\{"
+syntax match dotBlock "\}"
+
+
 highlight default link dotTodos Todo
 highlight default link dotNumber Number
 highlight default link dotKeywords Keyword
+highlight default link dotOps Special
+
 
 " highlight default link dotShebang Comment
 " highlight default link dotComment Comment
