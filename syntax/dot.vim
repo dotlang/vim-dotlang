@@ -30,7 +30,8 @@ syntax match dotBlock "}"
 highlight default link dotTodos Todo
 highlight default link dotNumber Number
 highlight default link dotKeywords Keyword
-highlight default link dotOps Special
+highlight default link dotOps Operator
+highlight default link dotBlock Special
 
 
 " highlight default link dotShebang Comment
