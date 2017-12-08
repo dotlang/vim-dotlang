@@ -6,7 +6,7 @@ syntax keyword dotTodos TODO XXX FIXME NOTE DOTDO
 syn match   dotComment   "#.*$"
 
 " Match language specific keywords
-syntax keyword dotKeywords
+syntax keyword dotTypes
       \ int
       \ char
       \ float
@@ -27,13 +27,12 @@ syntax match dotOps "->"
 syntax match dotBlock "{"
 syntax match dotBlock "}"
 
-
-highlight default link dotTodos Todo
-highlight default link dotNumber Number
-highlight default link dotKeywords Keyword
-highlight default link dotOps Todo
-highlight default link dotBlock PreProc
-hi def link  dotComment      Comment
+hi def link dotTodos Todo
+hi def link dotNumber Number
+hi def link dotTypes Type
+hi def link dotOps Operator
+hi def link dotBlock PreProc
+hi def link dotComment      Comment
 
 
 
